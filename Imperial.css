@@ -1,0 +1,71 @@
+body { 
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    }
+h1 {
+    font-variant-caps:small-caps;
+    color: rgb(59, 59, 59)
+    }
+h2 {
+    font-variant-caps:small-caps;
+    color: rgb(44, 38, 133)
+    }
+h3 {
+    font-variant-caps:small-caps;
+    color: rgb(121, 82, 25)
+    }
+.top {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+    }
+.topbuttons {
+        display:flex;
+        flex-direction:row;
+        background-color:black;
+        color:white;
+}
+.left {
+    display:flex;
+    flex-direction:column;
+    float:left;
+    background-color: black;
+    color:white;
+}
+.sidebuttons {
+   margin:auto;
+}
+.button {
+    margin:auto;
+    padding:1%
+}
+.NOAH {
+     color: rgb(255, 255, 255);
+      background-color:black
+      }
+.TITLE { 
+    color: blue; text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     float:left;
+     }
+.fancybox {
+    border: 5px solid rgb(44, 38, 133);
+    margin: 1em;
+    padding: 0.5em;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.PageLogo {
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+}
+.Main {
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    border: 2px dotted rgb(112, 73, 0);
+}
